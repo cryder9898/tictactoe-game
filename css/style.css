@@ -2,26 +2,18 @@ body {
     
 }
 
-.container-fluid {
-    border-style: solid;
-    text-align: center;
-}
-
-.centered {
-    border-style: solid;
-    margin: 0 auto;
-    padding: 1em;
-    height: 30em;
-    width: 30em;
-    
+.container {
+    width: 360px;
 }
 
 .square {
-    display: inline-block;
     border-style: solid;
-    height: 8em;
-    width: 8em;
-    margin: .5em
+    border-radius: 10%;
+    height: 100px;
+    width: 100px;
+    font-size: 80px;
+    text-align: center;
+    margin: 10px;
 }
 
 footer {
