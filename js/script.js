@@ -1,11 +1,21 @@
 $(document).ready(function () {
+  "use strict";
+
+  var X_MARK = 'X',
+      O_MARK = 'O',
+      player,
+      ai;
+  
+  function setPlayer(char) {
+    player = char;
+  }
+  
+  function newGame() {
     
-    var X_MARK = 'X';
-    var O_MARK = 'O';
-    var player, ai;
+  }
     
-    $('.square').click(function () {
-        $(this).text('X');
-    });
+  $('.square').click(function () {
+      $(this).text('X');
+  });
     
 });
