@@ -10,7 +10,6 @@ $(document).ready(function () {
   }
   
   function isWin() {
-    
     //checks rows for same letter
     for (var i = 0; i <= 6; i = i + 3) {
       if (board[i] !== '' && board[i] === board[i + 1] && board[i] === board[i + 2]) {
